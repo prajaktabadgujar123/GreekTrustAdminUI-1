@@ -10,6 +10,7 @@ function App() {
   const [userDataOriginal,setUserDataOriginal]=useState([]);
   const [currentPage,setCurrentPage]=useState(1);
   const [userDataPerPage]=useState(10);
+  
 
   const GREEK_TRUST_URL='https://geektrust.s3-ap-southeast-1.amazonaws.com/adminui-problem/members.json';
 
